@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\Anime\Anime.cpp" />
+    <ClCompile Include="Src\Anime\Anime2D.cpp" />
+    <ClCompile Include="Src\Beam\Beam.cpp" />
+    <ClCompile Include="Src\Beam\BeamManager.cpp" />
+    <ClCompile Include="Src\Camera\Camera.cpp" />
+    <ClCompile Include="Src\Camera\CameraManager.cpp" />
+    <ClCompile Include="Src\Camera\DebugCamera\DebugCamera.cpp" />
+    <ClCompile Include="Src\Camera\PlayCamera\PlayCamera.cpp" />
+    <ClCompile Include="Src\Character\Character.cpp" />
+    <ClCompile Include="Src\Character\CharacterManager.cpp" />
+    <ClCompile Include="Src\Character\Enemy\Boss\Boss.cpp" />
+    <ClCompile Include="Src\Character\Enemy\Boss\Boss1\Boss1.cpp" />
+    <ClCompile Include="Src\Character\Enemy\Boss\Boss2\Boss2.cpp" />
+    <ClCompile Include="Src\Character\Enemy\Enemy.cpp" />
+    <ClCompile Include="Src\Character\Enemy\EnemyManager.cpp" />
+    <ClCompile Include="Src\Character\Enemy\GolemEnemy\GolemEnemy.cpp" />
+    <ClCompile Include="Src\Character\Enemy\NormalEnemy\NormalEnemy.cpp" />
+    <ClCompile Include="Src\Character\Enemy\SonicEnemy\SonicEnemy.cpp" />
+    <ClCompile Include="Src\Character\Player\Player.cpp" />
+    <ClCompile Include="Src\Character\Player\PlayerManager.cpp" />
+    <ClCompile Include="Src\Collision\CheckCollision.cpp" />
+    <ClCompile Include="Src\Collision\Collision.cpp" />
+    <ClCompile Include="Src\Collision\CollisionManager.cpp" />
+    <ClCompile Include="Src\Draw\DrawManager.cpp" />
+    <ClCompile Include="Src\Effekseer\Effekseer.cpp" />
+    <ClCompile Include="Src\Fade\Fade.cpp" />
+    <ClCompile Include="Src\Field\Field.cpp" />
+    <ClCompile Include="Src\Field\FieldManager.cpp" />
+    <ClCompile Include="Src\FPS\FPS.cpp" />
+    <ClCompile Include="Src\GameManager\GameManager.cpp" />
+    <ClCompile Include="Src\GameManager\ManagerBase.cpp" />
+    <ClCompile Include="Src\Input\Input.cpp" />
+    <ClCompile Include="Src\Input\InputManager.cpp" />
+    <ClCompile Include="Src\Input\KeyBoard\KeyBoard.cpp" />
+    <ClCompile Include="Src\Input\Mouse\Mouse.cpp" />
+    <ClCompile Include="Src\Input\Pad\Pad.cpp" />
+    <ClCompile Include="Src\Magic\EnemyMagic\EnemyMagic.cpp" />
+    <ClCompile Include="Src\Magic\Magic.cpp" />
+    <ClCompile Include="Src\Magic\MagicManager.cpp" />
+    <ClCompile Include="Src\Main.cpp" />
+    <ClCompile Include="Src\Memory\MemoryManager.cpp" />
+    <ClCompile Include="Src\MyMath\MyMath.cpp" />
+    <ClCompile Include="Src\Object\Object.cpp" />
+    <ClCompile Include="Src\SaveData\SaveData.cpp" />
+    <ClCompile Include="Src\Scene\ClearScene\ClearScene.cpp" />
+    <ClCompile Include="Src\Scene\GameOverScene\GameOverScene.cpp" />
+    <ClCompile Include="Src\Scene\PlayScene\PlayScene.cpp" />
+    <ClCompile Include="Src\Scene\Scene.cpp" />
+    <ClCompile Include="Src\Scene\SceneManager.cpp" />
+    <ClCompile Include="Src\Scene\SelectScene\SelectScene.cpp" />
+    <ClCompile Include="Src\Scene\TitleScene\TitleScene.cpp" />
+    <ClCompile Include="Src\Score\Score.cpp" />
+    <ClCompile Include="Src\Sky\Sky.cpp" />
+    <ClCompile Include="Src\Sky\SkyManager.cpp" />
+    <ClCompile Include="Src\Sound\SoundManager.cpp" />
+    <ClCompile Include="Src\System\System.cpp" />
+    <ClCompile Include="Src\Text\Text.cpp" />
+    <ClCompile Include="Src\UI\PlayUI\PlayUI.cpp" />
+    <ClCompile Include="Src\UI\TitleUI\TitleUI.cpp" />
+    <ClCompile Include="Src\UI\UI.cpp" />
+    <ClCompile Include="Src\UI\UIManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Src\Anime\Anime.h" />
+    <ClInclude Include="Src\Anime\Anime2D.h" />
+    <ClInclude Include="Src\Beam\Beam.h" />
+    <ClInclude Include="Src\Beam\BeamManager.h" />
+    <ClInclude Include="Src\Camera\Camera.h" />
+    <ClInclude Include="Src\Camera\CameraManager.h" />
+    <ClInclude Include="Src\Camera\DebugCamera\DebugCamera.h" />
+    <ClInclude Include="Src\Camera\PlayCamera\PlayCamera.h" />
+    <ClInclude Include="Src\Character\Character.h" />
+    <ClInclude Include="Src\Character\CharacterCommon.h" />
+    <ClInclude Include="Src\Character\CharacterManager.h" />
+    <ClInclude Include="Src\Character\Enemy\AppearData.h" />
+    <ClInclude Include="Src\Character\Enemy\Boss\Boss.h" />
+    <ClInclude Include="Src\Character\Enemy\Boss\Boss1\Boss1.h" />
+    <ClInclude Include="Src\Character\Enemy\Boss\Boss2\Boss2.h" />
+    <ClInclude Include="Src\Character\Enemy\Enemy.h" />
+    <ClInclude Include="Src\Character\Enemy\EnemyManager.h" />
+    <ClInclude Include="Src\Character\Enemy\GolemEnemy\GolemEnemy.h" />
+    <ClInclude Include="Src\Character\Enemy\NormalEnemy\NormalEnemy.h" />
+    <ClInclude Include="Src\Character\Enemy\SonicEnemy\SonicEnemy.h" />
+    <ClInclude Include="Src\Character\Player\Player.h" />
+    <ClInclude Include="Src\Character\Player\PlayerManager.h" />
+    <ClInclude Include="Src\Collision\CheckCollision.h" />
+    <ClInclude Include="Src\Collision\Collision.h" />
+    <ClInclude Include="Src\Collision\CollisionManager.h" />
+    <ClInclude Include="Src\Common.h" />
+    <ClInclude Include="Src\Debug\Debug.h" />
+    <ClInclude Include="Src\Draw\DrawManager.h" />
+    <ClInclude Include="Src\Effekseer\Effect.h" />
+    <ClInclude Include="Src\Effekseer\Effekseer.h" />
+    <ClInclude Include="Src\Fade\Fade.h" />
+    <ClInclude Include="Src\Field\Field.h" />
+    <ClInclude Include="Src\Field\FieldManager.h" />
+    <ClInclude Include="Src\FPS\FPS.h" />
+    <ClInclude Include="Src\GameManager\GameManager.h" />
+    <ClInclude Include="Src\GameManager\ManagerBase.h" />
+    <ClInclude Include="Src\Input\Input.h" />
+    <ClInclude Include="Src\Input\InputManager.h" />
+    <ClInclude Include="Src\Input\KeyBoard\KeyBoard.h" />
+    <ClInclude Include="Src\Input\Mouse\Mouse.h" />
+    <ClInclude Include="Src\Input\Pad\Pad.h" />
+    <ClInclude Include="Src\Magic\EnemyMagic\EnemyMagic.h" />
+    <ClInclude Include="Src\Magic\Magic.h" />
+    <ClInclude Include="Src\Magic\MagicManager.h" />
+    <ClInclude Include="Src\Memory\MemoryManager.h" />
+    <ClInclude Include="Src\MyMath\MyMath.h" />
+    <ClInclude Include="Src\Object\Object.h" />
+    <ClInclude Include="Src\SaveData\SaveData.h" />
+    <ClInclude Include="Src\Scene\ClearScene\ClearScene.h" />
+    <ClInclude Include="Src\Scene\GameOverScene\GameOverScene.h" />
+    <ClInclude Include="Src\Scene\PlayScene\PlayScene.h" />
+    <ClInclude Include="Src\Scene\Scene.h" />
+    <ClInclude Include="Src\Scene\SceneManager.h" />
+    <ClInclude Include="Src\Scene\SelectScene\SelectScene.h" />
+    <ClInclude Include="Src\Scene\TitleScene\TitleScene.h" />
+    <ClInclude Include="Src\Score\Score.h" />
+    <ClInclude Include="Src\Sky\Sky.h" />
+    <ClInclude Include="Src\Sky\SkyManager.h" />
+    <ClInclude Include="Src\Sound\SoundManager.h" />
+    <ClInclude Include="Src\System\System.h" />
+    <ClInclude Include="Src\Text\Text.h" />
+    <ClInclude Include="Src\Text\TextData.h" />
+    <ClInclude Include="Src\UI\PlayUI\PlayUI.h" />
+    <ClInclude Include="Src\UI\TitleUI\TitleUI.h" />
+    <ClInclude Include="Src\UI\UI.h" />
+    <ClInclude Include="Src\UI\UIManager.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C9B38400-D907-441F-BAE2-93DD4F372C69}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Game</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用;C:\Users\kairi\OneDrive\デスクトップ\GC2授業\ゲーム制作演習\プロジェクト\課題02？\Src\Object;$(ProjectDir)Src\Effekseer\プロジェクトに追加すべきファイル_Effekseer用;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用;$(ProjectDir)Src\Effekseer\プロジェクトに追加すべきファイル_Effekseer用;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>/ignore:4099 %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用;C:\Users\kairi\OneDrive\デスクトップ\GC2授業\ゲーム制作演習\プロジェクト\課題02？\Src\Object;$(ProjectDir)Src\Effekseer\プロジェクトに追加すべきファイル_Effekseer用;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用;$(ProjectDir)Src\Effekseer\プロジェクトに追加すべきファイル_Effekseer用;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>/ignore:4099 %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

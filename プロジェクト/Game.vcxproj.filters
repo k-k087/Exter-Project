@@ -1,0 +1,527 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Collision">
+      <UniqueIdentifier>{f8f49f0f-1910-479c-a70b-88371ef53cd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{83680156-4773-4aa7-8688-e3c661dd80cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyMath">
+      <UniqueIdentifier>{dc08e643-72fd-4889-8653-ce3a03191457}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FPS">
+      <UniqueIdentifier>{7d9dbc3e-629b-4a0a-8ffe-51a8fcbac85c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input\KeyBoard">
+      <UniqueIdentifier>{8444d472-4130-4b98-a6c2-5008dc1462b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input\Mouse">
+      <UniqueIdentifier>{e677b7fb-d3ca-447b-8c80-d1d0e26e5ab6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input\Pad">
+      <UniqueIdentifier>{f664e662-efd8-437c-8e8b-54e3d3db2c80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Field">
+      <UniqueIdentifier>{59a841e0-bb9f-4e4f-bbb8-32d3b4eb7a03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{eb379271-aff0-4a05-b4b5-5b1e39ef95f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{1f6ed4c6-31b5-4d8a-9630-c428ca0682a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Character">
+      <UniqueIdentifier>{a03547b7-0d97-4f98-8ff7-e5f5d127e077}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Character\Player">
+      <UniqueIdentifier>{cdb8effc-e40b-4059-b103-9b365e0242b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Debug">
+      <UniqueIdentifier>{6e1a5fd9-e10b-40c3-ac18-107c39771a86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{a3d70525-f4d4-489a-8eb8-b8e2aa845846}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{2e47bfcc-1853-4d0d-8307-8d01da463633}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameManager">
+      <UniqueIdentifier>{ffda3379-cd40-4af0-918d-933a847ef0b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sky">
+      <UniqueIdentifier>{98d7b327-bb3e-46b8-9307-98d74f55eedd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\PlayScene">
+      <UniqueIdentifier>{4ae5db18-1394-4617-9ebe-f376541dc732}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\TitleScene">
+      <UniqueIdentifier>{5d9b2971-54b6-43f5-bfbd-f8220d970ee9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\ClearScene">
+      <UniqueIdentifier>{1245a6cb-7063-4002-ada6-5277021ca850}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\GameOverScene">
+      <UniqueIdentifier>{34afc7e3-83c2-42c7-a8ac-d6bafa968b48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Draw">
+      <UniqueIdentifier>{357499fc-0eee-4e32-a65b-369405397f83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera\DebugCamera">
+      <UniqueIdentifier>{6dc2abc6-4509-4e83-a14a-1ea0a265cc85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera\PlayCamera">
+      <UniqueIdentifier>{41c6d584-f78d-4c46-b007-9a8d58ca8a77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sound">
+      <UniqueIdentifier>{0d56ad99-fc5d-48ec-adde-3a33ac5345d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Memory">
+      <UniqueIdentifier>{57a11766-cbb3-434e-9119-dff69789069e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{ac14ae45-dd44-43fa-b88a-12f18f30df1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Anime">
+      <UniqueIdentifier>{f9e0c06c-29ec-4092-8d47-7e9080771089}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Score">
+      <UniqueIdentifier>{fb7d8b72-361b-4c3e-95a2-70574646575f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SaveData">
+      <UniqueIdentifier>{4c1e51b9-28e5-4140-bf77-8cad10a7e0ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Effekseer">
+      <UniqueIdentifier>{ad7b75ab-d467-434c-be4f-db478c99b26f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Character\Enemy">
+      <UniqueIdentifier>{80e61617-ccc2-4fe5-b1aa-6c1a9aba5921}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Character\Enemy\NormalEnemy">
+      <UniqueIdentifier>{2fdd0f38-6acf-449e-9584-25c6e4f984d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\TitleUI">
+      <UniqueIdentifier>{c24faaea-5292-408d-b4b4-3030502bb58c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\PlayUI">
+      <UniqueIdentifier>{85d1f1f1-eb21-4aab-b593-08fad31babbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Character\Enemy\GolemEnemy">
+      <UniqueIdentifier>{6907ae99-2969-4366-9934-73576008103c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Magic">
+      <UniqueIdentifier>{f04a3176-8dc4-49c5-b3ef-2843ef94a85a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Magic\EnemyMagic">
+      <UniqueIdentifier>{931657d6-5457-4689-b98b-6ef282f9b68d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Beam">
+      <UniqueIdentifier>{7eeadac9-ea69-41ef-bc7a-ae4b8b009946}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Character\Enemy\SonicEnemy">
+      <UniqueIdentifier>{c6581b9e-95d3-4636-9568-182fc1c588a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Character\Enemy\Boss">
+      <UniqueIdentifier>{fcd7dbfb-c3fa-497a-99bc-a624306a6ec4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Character\Enemy\Boss\Boss1">
+      <UniqueIdentifier>{1f182c4e-09ec-4738-8be6-20bc95f125f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Text">
+      <UniqueIdentifier>{4dd8f346-4355-4793-8464-ac321b35fcd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fade">
+      <UniqueIdentifier>{637d3a58-0c2b-4fd6-80f0-865eca7c7d63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Character\Enemy\Boss\Boss2">
+      <UniqueIdentifier>{7ba83f9f-5129-4f5f-916e-961302e8dd37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\TutorialScene">
+      <UniqueIdentifier>{7185b530-6fd1-434c-a1f6-40ec816e39eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\SelectScene">
+      <UniqueIdentifier>{fa511a44-01e8-4200-8313-2db8fe30b9a4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\Main.cpp" />
+    <ClCompile Include="Src\Collision\Collision.cpp">
+      <Filter>Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Input\Input.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\MyMath\MyMath.cpp">
+      <Filter>MyMath</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Collision\CollisionManager.cpp">
+      <Filter>Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\FPS\FPS.cpp">
+      <Filter>FPS</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Input\Pad\Pad.cpp">
+      <Filter>Input\Pad</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Input\Mouse\Mouse.cpp">
+      <Filter>Input\Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Input\KeyBoard\KeyBoard.cpp">
+      <Filter>Input\KeyBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Field\Field.cpp">
+      <Filter>Field</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Camera\Camera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Object\Object.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Character\Player\Player.cpp">
+      <Filter>Character\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Camera\CameraManager.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Character\Player\PlayerManager.cpp">
+      <Filter>Character\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\UI\UI.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Scene\Scene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Scene\SceneManager.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Input\InputManager.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\GameManager\GameManager.cpp">
+      <Filter>GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\GameManager\ManagerBase.cpp">
+      <Filter>GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Field\FieldManager.cpp">
+      <Filter>Field</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Sky\Sky.cpp">
+      <Filter>Sky</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Sky\SkyManager.cpp">
+      <Filter>Sky</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Collision\CheckCollision.cpp">
+      <Filter>Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Scene\ClearScene\ClearScene.cpp">
+      <Filter>Scene\ClearScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Scene\GameOverScene\GameOverScene.cpp">
+      <Filter>Scene\GameOverScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Scene\TitleScene\TitleScene.cpp">
+      <Filter>Scene\TitleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Scene\PlayScene\PlayScene.cpp">
+      <Filter>Scene\PlayScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Draw\DrawManager.cpp">
+      <Filter>Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Character\Character.cpp">
+      <Filter>Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Character\CharacterManager.cpp">
+      <Filter>Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Camera\DebugCamera\DebugCamera.cpp">
+      <Filter>Camera\DebugCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Camera\PlayCamera\PlayCamera.cpp">
+      <Filter>Camera\PlayCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Sound\SoundManager.cpp">
+      <Filter>Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Memory\MemoryManager.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\System\System.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Anime\Anime.cpp">
+      <Filter>Anime</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Anime\Anime2D.cpp">
+      <Filter>Anime</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Score\Score.cpp">
+      <Filter>Score</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\SaveData\SaveData.cpp">
+      <Filter>SaveData</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Effekseer\Effekseer.cpp">
+      <Filter>Effekseer</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Character\Enemy\Enemy.cpp">
+      <Filter>Character\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Character\Enemy\NormalEnemy\NormalEnemy.cpp">
+      <Filter>Character\Enemy\NormalEnemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Character\Enemy\EnemyManager.cpp">
+      <Filter>Character\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\UI\UIManager.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\UI\TitleUI\TitleUI.cpp">
+      <Filter>UI\TitleUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\UI\PlayUI\PlayUI.cpp">
+      <Filter>UI\PlayUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Character\Enemy\GolemEnemy\GolemEnemy.cpp">
+      <Filter>Character\Enemy\GolemEnemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Magic\MagicManager.cpp">
+      <Filter>Magic</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Magic\EnemyMagic\EnemyMagic.cpp">
+      <Filter>Magic\EnemyMagic</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Magic\Magic.cpp">
+      <Filter>Magic</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Beam\Beam.cpp">
+      <Filter>Beam</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Beam\BeamManager.cpp">
+      <Filter>Beam</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Character\Enemy\SonicEnemy\SonicEnemy.cpp">
+      <Filter>Character\Enemy\SonicEnemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Character\Enemy\Boss\Boss.cpp">
+      <Filter>Character\Enemy\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Character\Enemy\Boss\Boss1\Boss1.cpp">
+      <Filter>Character\Enemy\Boss\Boss1</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Text\Text.cpp">
+      <Filter>Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Fade\Fade.cpp">
+      <Filter>Fade</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Character\Enemy\Boss\Boss2\Boss2.cpp">
+      <Filter>Character\Enemy\Boss\Boss2</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Scene\SelectScene\SelectScene.cpp">
+      <Filter>Scene\SelectScene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Src\Collision\Collision.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Input\Input.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Common.h" />
+    <ClInclude Include="Src\MyMath\MyMath.h">
+      <Filter>MyMath</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Collision\CollisionManager.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\FPS\FPS.h">
+      <Filter>FPS</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Input\Pad\Pad.h">
+      <Filter>Input\Pad</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Input\Mouse\Mouse.h">
+      <Filter>Input\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Input\KeyBoard\KeyBoard.h">
+      <Filter>Input\KeyBoard</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Field\Field.h">
+      <Filter>Field</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Camera\Camera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Object\Object.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Character\Player\Player.h">
+      <Filter>Character\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Camera\CameraManager.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Character\Player\PlayerManager.h">
+      <Filter>Character\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Debug\Debug.h">
+      <Filter>Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\UI\UI.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Scene\Scene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Scene\SceneManager.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Input\InputManager.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\GameManager\GameManager.h">
+      <Filter>GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\GameManager\ManagerBase.h">
+      <Filter>GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Field\FieldManager.h">
+      <Filter>Field</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Sky\Sky.h">
+      <Filter>Sky</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Sky\SkyManager.h">
+      <Filter>Sky</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Collision\CheckCollision.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Scene\ClearScene\ClearScene.h">
+      <Filter>Scene\ClearScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Scene\GameOverScene\GameOverScene.h">
+      <Filter>Scene\GameOverScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Scene\TitleScene\TitleScene.h">
+      <Filter>Scene\TitleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Scene\PlayScene\PlayScene.h">
+      <Filter>Scene\PlayScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Draw\DrawManager.h">
+      <Filter>Draw</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Character\Character.h">
+      <Filter>Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Character\CharacterManager.h">
+      <Filter>Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Camera\DebugCamera\DebugCamera.h">
+      <Filter>Camera\DebugCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Camera\PlayCamera\PlayCamera.h">
+      <Filter>Camera\PlayCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Sound\SoundManager.h">
+      <Filter>Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Memory\MemoryManager.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\System\System.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Anime\Anime.h">
+      <Filter>Anime</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Anime\Anime2D.h">
+      <Filter>Anime</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Score\Score.h">
+      <Filter>Score</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\SaveData\SaveData.h">
+      <Filter>SaveData</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Effekseer\Effekseer.h">
+      <Filter>Effekseer</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Character\Enemy\Enemy.h">
+      <Filter>Character\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Character\Enemy\NormalEnemy\NormalEnemy.h">
+      <Filter>Character\Enemy\NormalEnemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Character\Enemy\EnemyManager.h">
+      <Filter>Character\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Character\CharacterCommon.h">
+      <Filter>Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\UI\UIManager.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\UI\PlayUI\PlayUI.h">
+      <Filter>UI\PlayUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\UI\TitleUI\TitleUI.h">
+      <Filter>UI\TitleUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Effekseer\Effect.h">
+      <Filter>Effekseer</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Character\Enemy\GolemEnemy\GolemEnemy.h">
+      <Filter>Character\Enemy\GolemEnemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Magic\Magic.h">
+      <Filter>Magic</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Magic\MagicManager.h">
+      <Filter>Magic</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Magic\EnemyMagic\EnemyMagic.h">
+      <Filter>Magic\EnemyMagic</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Beam\Beam.h">
+      <Filter>Beam</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Beam\BeamManager.h">
+      <Filter>Beam</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Character\Enemy\SonicEnemy\SonicEnemy.h">
+      <Filter>Character\Enemy\SonicEnemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Character\Enemy\Boss\Boss.h">
+      <Filter>Character\Enemy\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Character\Enemy\Boss\Boss1\Boss1.h">
+      <Filter>Character\Enemy\Boss\Boss1</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Text\Text.h">
+      <Filter>Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Text\TextData.h">
+      <Filter>Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Fade\Fade.h">
+      <Filter>Fade</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Character\Enemy\Boss\Boss2\Boss2.h">
+      <Filter>Character\Enemy\Boss\Boss2</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Scene\SelectScene\SelectScene.h">
+      <Filter>Scene\SelectScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Character\Enemy\AppearData.h">
+      <Filter>Character\Enemy</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
